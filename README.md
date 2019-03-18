@@ -1,8 +1,8 @@
 # express-jwt
 Node sample application with express js and JWT 
 
-#Install dependency
+# Install dependency
 npm install
 
-#Start app development mode
+# Start app development mode
 npm run dev 
