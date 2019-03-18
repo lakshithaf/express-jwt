@@ -6,12 +6,12 @@ const asyncHandler = require('express-async-handler')
 
 
 router.get('/', asyncHandler(async (req, res) => {
-    return res.send('welocme to asymetric poc');
+    return res.send('welocme to express-jwt app');
 }));
 
 
 router.post('/', asyncHandler(async (req, res) => {
-    return res.send('welocme to asymetric poc');
+    return res.send('welocme to express-jwt app');
 }));
 
 
