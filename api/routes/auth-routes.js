@@ -2,12 +2,12 @@
 
 const express = require('express');
 const router = express.Router();
-const asyncHandler = require('express-async-handler')
+const asyncHandler = require('express-async-handler');
 
 const AuthController = require('../controllers/AuthController');
 
 router.get('/', asyncHandler(async (req, res) => {
-    return AuthController.getPatientsByParms(req, res);
+    return AuthController.getUserByParms(req, res);
 }));
 
 
